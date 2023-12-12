@@ -1,0 +1,240 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* First logo */
+.facebook-content {
+    background-color: #aab3bc29;
+    /* height: 185vh; */
+    height: 730px;
+    width: 109%;
+    display: flex;
+    justify-content: center;
+    margin-left: -120px;
+}
+.logo img {
+    height: 106px;
+    width: 321px;
+}
+.logo {
+    width: 360px;
+    margin-top: 174px;
+    margin-left: 110px;
+}
+.fb-para {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 28px;
+    margin-top: -12px;
+}
+/* log-in box */
+.log-in-box {
+    background-color: rgb(255, 255, 255);
+    width: 396px;
+    height: 350px;
+    margin-top: 129px;
+    margin-left: 250px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px 2px rgba(212, 212, 212, 0.737);
+}
+.box-content input {
+    padding: 15px;
+    width: 330px;
+    margin-left: 18px;
+    margin-top: 17px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 17px;
+    color: rgb(165, 165, 165);
+    box-shadow: inset 0px 0px 1px;
+}
+#password {
+    margin-top: 11px;
+}
+#log-in-btn {
+    color: white;
+    background-color: #0059ffdb;
+    padding: 13px;
+    width: 361px;
+    margin-left: 18px;
+    margin-top: 17px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-content p {
+    display: flex;
+    color: #1877f2;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-content p:hover {
+    text-decoration: underline;
+}
+.line {
+    border-bottom: 1px solid #dadde1;
+    width: 359px;
+    margin-left: 18px;
+    margin-top: 19px;
+}
+#create-btn {
+    color: white;
+    background-color: rgb(24, 180, 24);
+    padding: 13px;
+    width: 190px;
+    margin-left: 100px;
+    margin-top: 27px;
+    border: 0px solid;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#create-btn:hover {
+    background-color: rgb(0, 168, 0);
+}
+/* box under para */
+.box-under-para {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.para1 {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.para1:hover {
+    text-decoration: underline;
+}
+.para2 {
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Last footer */
+.footer-content {
+    margin-top: -170px;
+    height: 30vh;
+    margin-left: -135px;
+}
+.first-footer-para {
+    display: flex;
+    margin-left: 130px;
+    font-size: 12px;
+    color: gray;
+    padding: 4px;
+}
+.first-footer-para p {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 22px;
+    padding: 5px
+}
+.first-footer-para p:hover {
+    text-decoration: underline;
+}
+#uk {
+    text-decoration: none;
+    cursor:text;
+}
+#footer-plus {
+    text-decoration: none;
+    height: 9px;
+    width: 16px;
+    margin: 5px;
+    padding: 6px 8px;
+    margin-top: 23px;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 4px;
+    line-height: 9px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(176, 174, 174);
+    cursor: pointer;
+}
+#footer-plus:hover {
+    background-color: rgb(232, 232, 232);
+}
+.line2 {
+    border-bottom: 1px solid #dadde1;
+    width: 955px;
+    margin-left: 138px;
+    margin-top: -1px;
+}
+
+/* second para */
+.second-footer-para{
+    margin-left: 129px;
+    font-size: 12px;
+    color: gray;
+   margin-top: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.first-line-footer{
+    width: 985px;
+    display: flex;
+    cursor: pointer;
+}
+.second-line-footer{
+    display: flex;
+    width: 985px;
+    cursor: pointer;
+}
+.third-line-footer{
+    display: flex;
+    width: 985px;
+    cursor: pointer;
+}
+.first-line-footer p:hover{
+   text-decoration: underline;
+}
+.second-line-footer p:hover{
+    text-decoration: underline;
+}
+.third-line-footer p:hover{
+    text-decoration: underline;
+}
+.last-line-footer{
+    display: flex;
+    width: 985px;
+    margin-top: -10PX;
+}
+.last-line-footer p{
+    padding: 9px;
+    margin-top: 16px;
+    font-size: 11px;
+}
+.first-line-footer p{
+    padding: 9px;
+    margin-top: -24px;
+}
+.second-line-footer p{
+    padding: 9px;
+    margin-top: -24px;
+}
+.third-line-footer p{
+   padding: 9px;
+   margin-top: -24px;
+}
+
+#Footer{
+    display: flex;
+    justify-content: center;
+    background: white;
+    height: 1px;
+    margin-top: 158px;
+}
